@@ -10,33 +10,26 @@ Features and Capabilities
 	1. NLP Techniques and Foundations
 		○ Learning Paradigms: Implemented zero-shot, one-shot, and few-shot learning to enable the chatbot to generalize from minimal examples.
 		○ Text Summarization: Developed models to condense lengthy dialogues into concise summaries, aiding coherent response generation.
-  
-	2. Utilizing Pre-Trained Language Models
+        2. Utilizing Pre-Trained Language Models
 		○ Transformer Models: Leveraged advanced models for summarization, translation, and question answering.
 		○ Model Fine-Tuning: Customized pre-trained models on specific datasets to enhance targeted application performance.
-  
-	3. Building Vasuki – A Proof of Concept
+        3. Building Vasuki – A Proof of Concept
 		○ Dialog Summarization: Implemented techniques to process and condense dialogue inputs for better context retention and response generation.
 		○ Inference Techniques: Used one-shot and few-shot learning strategies to generate accurate responses with minimal training examples.
 		○ Retrieval-Augmented Generation (RAG): Combined retrieval mechanisms with generative models to create a robust and knowledgeable conversational agent.
-  
-	4. User Interface Development
+        4. User Interface Development
 		○ TruthSeeker Experience: Drew from the TruthSeeker project to design an intuitive and interactive UI for Vasuki.
 		○ Seamless Interaction: Focused on delivering a seamless and engaging user interface that draws users in and provides intuitive interactions.
-  
-	5. Comparative Analysis and Evaluation
+        5. Comparative Analysis and Evaluation
 		○ Benchmarking: Compared Vasuki’s performance with established conversational agents like ChatGPT and Gemini to identify strengths and areas for improvement, acknowledging the differences in scope and resources.
-  
-	6. Deployment and Accessibility
+        6. Deployment and Accessibility
 		○ Cloud Deployment: Ensured scalability and accessibility by deploying the chatbot on cloud platforms. The chatbot user interface is now live, providing users with a firsthand experience of Vasuki’s capabilities.
-  
-	7. Advanced Graph Structures
+        7. Advanced Graph Structures
 		○ Directed Acyclic Graphs (DAG): Used for efficient workflow management, ensuring that each task is executed in the correct sequence. Constructed model pipelines to handle data preprocessing, feature extraction, model training, and evaluation in a structured manner.
-		○ Undirected Acyclic Graphs (UAG): Utilized for hierarchical knowledge representation, ensuring no redundant paths and a clear structure.
-  
+                ○ Undirected Acyclic Graphs (UAG): Utilized for hierarchical knowledge representation, ensuring no redundant paths and a clear structure.
 	8. Database Design and Optimization
 		○ Cardinality: Designed database schemas based on cardinality to manage user data, queries, and session information efficiently. Optimized queries by understanding the relationships and unique values within the data.
-  
+
 Node and Edge Concepts
 
 Nodes
