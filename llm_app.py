@@ -18,7 +18,7 @@ with col1:
      st.image(image,use_column_width=True)
 #st.image(image)
 with col2:
-     st.title('Vasuki')
+     st.title('')
 st.markdown("✨Greetings! I'm Vasuki, your expert CustomerSupport Chatbot.. ✨")
 
 openai.api_key = st.secrets['OPENAI_API_KEY']
