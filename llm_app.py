@@ -5,7 +5,7 @@ from customer_support import CustomerSupportPipeline
 from ui.graph_renderer import GraphRenderer
 
 import os
-
+import openai
 
 openai.api_key = st.secrets['OPENAI_API_KEY']
 api_key = openai.api_key
