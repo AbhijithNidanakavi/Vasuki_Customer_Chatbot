@@ -12,14 +12,20 @@ from ui.graph_renderer import GraphRenderer
 import os
 import openai
 
+image = Image.open("Vasuki_logo.png")
+col1, col2 = st.columns([1,2])
+with col1: 
+     st.image(image,use_column_width=True)
+#st.image(image)
+with col2:
+     st.title('Vasuki')
+st.markdown("✨Greetings! I'm Vasuki, your expert CustomerSupport Chatbot.. ✨")
+
 openai.api_key = st.secrets['OPENAI_API_KEY']
 api_key = openai.api_key
 
 # Set the OpenAI API key as an environment variable
 os.environ['OPENAI_API_KEY'] = api_key
-
-
-st.title("Hi, I'm your Shopify Agent")
 
 
 chatbot_started = False
