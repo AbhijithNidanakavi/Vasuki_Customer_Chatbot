@@ -7,10 +7,12 @@ Vasuki is an advanced conversational agent designed to understand, process, and 
 Overview
 
 Features and Capabilities
-	1. NLP Techniques and Foundations
+	
+        1. NLP Techniques and Foundations
 		○ Learning Paradigms: Implemented zero-shot, one-shot, and few-shot learning to enable the chatbot to generalize from minimal examples.
 		○ Text Summarization: Developed models to condense lengthy dialogues into concise summaries, aiding coherent response generation.
-        2. Utilizing Pre-Trained Language Models
+      
+	2. Utilizing Pre-Trained Language Models
 		○ Transformer Models: Leveraged advanced models for summarization, translation, and question answering.
 		○ Model Fine-Tuning: Customized pre-trained models on specific datasets to enhance targeted application performance.
         3. Building Vasuki – A Proof of Concept
