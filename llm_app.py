@@ -7,8 +7,8 @@ from ui.graph_renderer import GraphRenderer
 import os
 
 
-
-api_key = "enter-your-api-key"
+openai.api_key = st.secrets['OPENAI_API_KEY']
+api_key = openai.api_key
 
 # Set the OpenAI API key as an environment variable
 os.environ['OPENAI_API_KEY'] = api_key
