@@ -54,6 +54,7 @@ Specialized Nodes and Edges
 Current Status
 
 The development of Vasuki includes the following completed phases:
+
 	1. NLP Techniques and Foundations
 	2. Utilizing Pre-Trained Language Models
 	3. Building Vasuki – A Proof of Concept
@@ -64,6 +65,7 @@ The development of Vasuki includes the following completed phases:
 	8. Database Design and Optimization
 
 Next Steps
+
 The final phase involves metadata creation, which will be implemented using AWS services.
 
 .. development in progress ..
